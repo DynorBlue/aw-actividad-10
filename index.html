@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertidor de Divisas</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Convertidor de Divisas</h1>
+
+    <form id="formDivisas">
+      <label for="cantidad">Cantidad </label>
+      <input
+        id="cantidad"
+        type="number"
+        step="0.01"
+        placeholder="ejemplo 100"
+      />
+
+      <label for="deMoneda">De:</label>
+      <select id="deMoneda">
+        <option value="MXN">Pesos</option>
+        <option value="USD">Dólares</option>
+        <option value="EUR">Euros</option>
+        <option value="JPY">Yenes</option>
+      </select>
+
+      <label for="aMoneda">A:</label>
+      <select id="aMoneda">
+        <option value="USD">Dolares</option>
+        <option value="EUR">Euros</option>
+        <option value="JPY">Yenes</option>
+        <option value="MXN">Pesos</option>
+      </select>
+
+      <button type="submit">Convertir</button>
+    </form>
+
+    <p id="resultado">conversion</p>
+
+    <script src="js/java.js"></script>
+  </body>
+</html>

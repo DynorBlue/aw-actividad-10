@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label,
+input,
+button {
+  display: block;
+  width: 200px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #256528;
+}
+
+#salida {
+  margin-top: 15px;
+  font-weight: bold;
+}
